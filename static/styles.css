@@ -1,0 +1,162 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.option {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.option:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o formulário de cadastro de cliente */
+#client-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#client-form input[type="text"],
+#client-form input[type="number"],
+#client-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#client-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#client-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a tabela de exibição de clientes */
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#client-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#client-table th, #client-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#client-table th {
+  background-color: #f2f2f2;
+}
+
+#client-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para o formulário de alterar de cliente */
+#update-client-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#update-client-form input[type="text"],
+#update-client-form input[type="email"],
+#update-client-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#update-client-form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#update-client-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para o select */
+#change-option {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos para as opções do select */
+#change-option option {
+  padding: 10px;
+}

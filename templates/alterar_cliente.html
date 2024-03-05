@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alterar Dados do Cliente</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+<div class="container">
+  <h1>Alterar Dados do Cliente</h1>
+  <form id="update-client-form" method="POST" action="/alterar_cliente">
+    <label for="client-id">ID do Cliente:</label>
+    <input type="text" id="client-id" name="client-id" required>
+    <label for="change-option">O que deseja alterar?</label>
+    <select id="change-option" name="change-option" required>
+      <option value="phone">Telefone</option>
+      <option value="address">Endereço</option>
+    </select>
+    <label for="new-value">Novo Valor:</label>
+    <input type="text" id="new-value" name="new-value" required>
+    <input type="submit" value="Atualizar Dados">
+  </form>
+  <div class="button-container">
+    <a href="/" class="button">Página Inicial</a>
+  </div>
+</div>
+
+</body>
+</html>
